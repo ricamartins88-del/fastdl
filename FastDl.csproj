@@ -11,4 +11,15 @@
     <Version>0.2.0</Version>
   </PropertyGroup>
 
+  <!-- Garante os namespaces usados pelo código, mesmo que o SDK não os importe sozinho -->
+  <ItemGroup>
+    <Using Include="System" />
+    <Using Include="System.Collections.Generic" />
+    <Using Include="System.IO" />
+    <Using Include="System.Linq" />
+    <Using Include="System.Net.Http" />
+    <Using Include="System.Threading" />
+    <Using Include="System.Threading.Tasks" />
+  </ItemGroup>
+
 </Project>
